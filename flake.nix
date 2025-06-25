@@ -35,6 +35,7 @@
           '';
         };
         packages = {
+          default = caelestia-cli;
           caelestia-cli = caelestia-cli;
         };
       });
