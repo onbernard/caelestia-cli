@@ -140,6 +140,7 @@ def apply_qt(colours: dict[str, str], mode: str) -> None:
 
 
 def apply_colours(colours: dict[str, str], mode: str) -> None:
+    return
     apply_terms(gen_sequences(colours))
     apply_hypr(gen_conf(colours))
     apply_discord(gen_scss(colours))
